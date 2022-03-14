@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tido Barber</title>
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slide.css">
+	<!-- font google -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,200;1,400&family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet">
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<header>
+		<div class="box container-flex">
+			<a href="index.html">
+				<img src="images/Logo.png" alt="Logo Barber Tido">
+			</a>
+			<nav class="header-nav">
+				<ul class="flex-center">
+					<li>
+						<a href="#section-quem">Quem Sou</a>
+					</li>
+					<li>
+						<a href="#section-servicos">Serviços</a>
+					</li>
+					<li>
+						<a href="#section-agende">Agende</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- aqui começa o slide -->
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+		  <div class="numbertext">1 / 3</div>
+		  <img src="images/slide-01.jpg" style="width:100%">
+		  <div class="text">Barba com Pigmentação</div>
+		</div>
+		
+		<div class="mySlides fade">
+		  <div class="numbertext">2 / 3</div>
+		  <img src="images/slide-02.jpg" style="width:100%">
+		  <div class="text">Corte Degradê</div>
+		</div>
+		
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		</div>
+		<br>
+		
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		</div>
+	<!-- aqui termina o slide -->
+
+	<!-- aqui começa quem sou -->
+	<section>
+		<div class="box container-flex">
+			<div class="section-left">
+				<img src="images/quem-sou.jpg" alt="Quem Sou">
+			</div>
+			<div class="section-right">
+				<h1 id="section-quem">Quem Sou</h1>
+				<p id="txt-quem-sou">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui magnam aliquam magni porro blanditiis suscipit officiis error amet, fugit numquam. Rem quod numquam dolor obcaecati voluptatum! Maiores itaque explicabo reiciendis?
+					Culpa quibusdam placeat laudantium necessitatibus aperiam corrupti tenetur, sint incidunt reiciendis assumenda inventore unde temporibus officia ipsa nihil aspernatur rem non soluta eius veniam velit harum nesciunt excepturi provident. Nihil?
+					Repellendus quod maiores, blanditiis nemo minima incidunt saepe et sit omnis laborum explicabo reprehenderit rem ex a, harum illum tempora dolorem id ipsum labore. Quos cupiditate tempora ullam ratione architecto?
+					Assumenda deserunt itaque perspiciatis repellendus vel nihil dignissimos delectus placeat. Magnam velit officia quasi vel id doloremque quia voluptas odio. Porro itaque voluptatibus quia error blanditiis iusto dolor facere.
+				
+				</p>
+			</div>
+		</div>
+	</section>
+	<!-- aqui começa serviços -->
+	<section id="bg-section">
+		<h1 id="section-servicos">Serviços</h1>
+		<div class="box container-flex">
+			<figure>
+				<img src="images/servico1.png" alt="Barba e Bigode">
+				<figcaption>Barba e Bigade</figcaption>
+			</figure>
+			<figure>
+				<img src="images/servico2.png" alt="Corte de Cabelo">
+				<figcaption>Corte de Cabelo</figcaption>
+			</figure>
+			<figure>
+				<img src="images/servico3.png" alt="Grau Geral">
+				<figcaption>Grau geral</figcaption>
+			</figure>
+		</div>
+	</section>
+	<!-- aqui termina começa serviços -->
+	<!-- aqui começa agende -->
+	<section>
+		<div class="box container-flex">
+			<div class="section-left">
+				<iframe src="https://www.google.com/maps/d/embed?mid=12kzQnqW7GvxqFJdsMawiwIl2ePk&hl=pt-BR&ehbc=2E312F" width="100%" height="660"></iframe>
+			</div>
+			<div class="section-right">
+				<h1 id="section-agende">Agende</h1>
+				<p>Preencha o formulário abaixo e agende o seu horário:</p>
+				<form action="">
+					<p><input type="text" name="name" placeholder="Digite o seu nome:"></p>
+					<p><input type="text" name="whatsapp" placeholder="Digite o seu Whatsapp:"></p>
+					<p><input type="text" name="email" placeholder="Digite o seu e-mail:"></p>
+					<p><select name="servicos">
+						<option value="">Escolha o serviço</option>
+						<option value="corte-cabelo">Corte de Cabelo</option>
+						<option value="barba">Barba</option>
+					</select></p>
+					<p><input type="date" name="date"></p>
+					<p>
+						<textarea name="comentarios" id="" cols="30" rows="10">Deixe um comentario:</textarea>
+					</p>
+					<p><button type="button">AGENDAR SERVIÇO</button></p>
+				</form>
+			</div>
+		</div>
+		<!-- aqui termina agende -->
+	</section>
+	<!-- aqui começa o footer -->
+	<footer>
+		<div class="box container-flex">
+			<div class="section-left">
+				Todos os direitos reservados. &copy; 2021.
+			</div>
+			<div class="section-right">
+				<ul class="flex-center">
+					<li>
+						<a href="https://www.instagram.com/" target="_blank">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://web.whatsapp.com/send?phone=5575998863487" target="_blank">
+							<i class="fab fa-whatsapp"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!--script-->
+	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+		
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+		
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+		
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+			  slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+			  dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		}
+		</script>
+		<!--final script-->
+</body>
+</html>

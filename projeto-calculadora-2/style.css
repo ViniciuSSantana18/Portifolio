@@ -1,0 +1,29 @@
+
+
+h1{
+	font-family: 'Share Tech Mono', monospace;
+	text-align: center;
+	color: blueviolet;
+}
+#calculator{
+	background-color: #1c4670;
+	width: 450px;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0 auto;
+}
+#display{
+	background-color: #ccc;
+	padding: 10px;
+	margin: 15px;
+	border-radius: 10px;
+}
+#results{
+	font-family: 'Share Tech Mono', monospace;
+	text-align: right;
+	font-size: 24px;
+	padding: 30px 10px;
+}
+#keyboard{
+	margin: 15px;
+}
